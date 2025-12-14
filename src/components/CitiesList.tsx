@@ -13,7 +13,7 @@ export const CitiesList = () => {
 
   useEffect(() => {
     if (data) {
-      setCities(data.cities)
+      setCities(data.cities);
     }
   }, [data]);
 
